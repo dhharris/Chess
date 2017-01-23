@@ -74,7 +74,7 @@ public abstract class Piece {
 
 	}
 
-	public Boolean isHoriz(Location l) {
+	public Boolean isVert(Location l) {
 		if (this.l.equals(l))
 			return false;
 		
@@ -85,7 +85,7 @@ public abstract class Piece {
 		return dx == 0;
 	}
 
-	public Boolean isVert(Location l) {
+	public Boolean isHoriz(Location l) {
 		if (this.l.equals(l))
 			return false;
 		

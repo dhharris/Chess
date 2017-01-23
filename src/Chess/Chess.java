@@ -174,7 +174,7 @@ public class Chess {
 	 * Display dialog box with Black and White's scores
 	 */
 	public void showScores() {
-		JOptionPane.showMessageDialog(f, "White: " + scores[GameState.WHITE] + "\nBlack: " + scores[GameState.BLACK]);
+		JOptionPane.showMessageDialog(f, "White: " + scores[GameState.WHITE] + "\nBlack: " + scores[GameState.BLACK], "Scores", JOptionPane.INFORMATION_MESSAGE);
 	}
 
 	/**
